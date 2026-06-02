@@ -1,13 +1,13 @@
 # print("Hello World")
-"""name = input("Enter The Name :")
-print('The Name is',name)"""
+name = input("Enter The Name :")
+print('The Name is',name)
 
 
-'''def ejaz():
+def ejaz():
     a = input("Enter The Name :")
     a.strip().title()
     print(f"Nigga {a}")
-ejaz()'''
+ejaz()
 
 def calc():
     x = int(input("Enter The Number For Square"))
