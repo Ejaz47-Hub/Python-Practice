@@ -1,6 +1,5 @@
-def PlayBack():
-    word = input("Enter The String:")
+def playback():
+    word = input("Enter The string:")
     words = word.replace(' ','...')
     print(words)
-PlayBack()
-
+playback()
