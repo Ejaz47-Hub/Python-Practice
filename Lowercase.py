@@ -3,3 +3,5 @@ def LowerCase():
     words = word.lower()
     print(words)
 LowerCase()
+
+
