@@ -1,0 +1,17 @@
+def filestype():
+    file = input("File name:")
+    if file.endswith('.gif'):
+        print('image/gif')
+    elif file.endswith('.jpg') or file.endswith('.jpeg'):
+        print('image/jpeg')
+    elif file.endswith('.png'):
+        print('image/png')
+    elif file.endswith('.pdf'):
+        print('application/pdf')
+    elif file.endswith('.txt'):
+        print('file/text')
+    elif file.endswith('.zip'):
+        print('file/text')
+    else:
+        print('application/octet-stream')
+filestype()
